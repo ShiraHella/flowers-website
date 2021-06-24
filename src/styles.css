@@ -41,34 +41,28 @@ h2 {
   padding: 15px 30px;
   font-size: 14px;
   font-weight: bold;
-  margin-bottom: 300px;
+  margin-bottom: 30px;
   color: var(--primary-color);
 }
 
 footer {
   color: white;
   background: var(--primary-color);
-  padding: 10px;
+  padding: 20px;
 }
-.footer-title {
-  font-weight: bold;
-  font-size: 16px;
+
+footer a {
+  color: white;
+  text-decoration: none;
 }
+
+footer a:hover {
+  color: #8a85a8;
+}
+
 .open-source {
-  font-size: 12px;
   text-align: right;
 }
-
-footer .social-icons a {
-  color: white;
-  margin: 0 20px;
-  transition: all 150ms ease-in-out;
-}
-
-footer .social-icons a:hover {
-  color: black;
-}
-
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 42px;
