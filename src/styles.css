@@ -59,8 +59,14 @@ footer {
   text-align: right;
 }
 
-.social-icons {
+footer .social-icons a {
   color: white;
+  margin: 0 20px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-icons a:hover {
+  color: black;
 }
 
 @media (max-width: 960px) {
